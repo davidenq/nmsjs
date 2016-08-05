@@ -1,0 +1,15 @@
+{
+  "allowed": [
+    "service",
+    "ifconfig",
+    "snmptranslate",
+    "snmpget",
+    "snmpgetnext",
+    "snmpwalk",
+    "snmptable",
+    "snmpset",
+    "snmptrap",
+    "snmpinform",
+    "grep"
+  ]
+}
