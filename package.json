@@ -1,6 +1,6 @@
 {
   "name": "nmsjs",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A simple desktop application for network management system using electronjs and nodejs wrapper for net-snmp tools.",
   "main": "main.js",
   "scripts": {
