@@ -23,6 +23,7 @@ class ChildProcess {
             });
         } else {
 
+            console.log(commandAll);
             const ps = this.spawn(command, args);
 
             ps.stdout.on('data', function(data) {
