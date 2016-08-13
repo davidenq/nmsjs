@@ -4,7 +4,7 @@
   "description": "A simple desktop application for network management system using electronjs and nodejs wrapper for net-snmp tools.",
   "main": "main.js",
   "scripts": {
-    "start": "./node_modules/.bin/electron .",
+    "start": "sudo ./node_modules/.bin/electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
