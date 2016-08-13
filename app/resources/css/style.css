@@ -17,6 +17,9 @@ body {
     padding-bottom: 0rem;
     vertical-align: top;
 }
+.ui.grid>.row {
+  padding:0.6em;
+}
 .top-container {
     background-color: #20252a;
     left: 20px;
@@ -281,10 +284,10 @@ select.ui.dropdown {
     outline: 0;
     border: none;
     vertical-align: baseline;
-    background: #373b40;
+    background: transparent;
     color: #b3b3b3;
     font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
-    margin: 10.9em .25em 0 0;
+    margin: 0;
     padding: .78571429em 1.5em;
     text-transform: none;
     text-shadow: none;
@@ -306,9 +309,9 @@ select.ui.dropdown {
     -webkit-tap-highlight-color: transparent;
 }
 .ui.button:hover {
-    background-color: #181b1f;
+    background-color: transparent;
     background-image: none;
-    box-shadow: 0 0 0 1px transparent inset,0 0 0 0 rgba(34,36,38,.15) inset;
+    box-shadow: 0 0 0 0px transparent inset,0 0 0 0 rgba(34,36,38,.15) inset;
     color: rgba(169, 169, 169, 0.8);
 }
 .ui.tabular.menu .item .icon-menu >li{
@@ -364,7 +367,12 @@ pre, textarea {
   padding: 15px;
 }
 
-
+.ui.orange.button, .ui.orange.buttons .button {
+    background-color: #923f3f;
+    color: #FFF;
+    text-shadow: none;
+    background-image: none;
+}
 
 code[class*="language-"],
 pre[class*="language-"] {
