@@ -18,7 +18,8 @@ npm start
 Enjoy!!!
 
 # Screenshot
-![snmpget](https://raw.githubusercontent.com/davidenq/nmsjs/master/img/snmpget.png)
-![snmpwalk](https://raw.githubusercontent.com/davidenq/nmsjs/master/img/snmpwalk.png)
+![snmpget](https://cdn.rawgit.com/davidenq/nmsjs/master/app/resources/img/snmpget.png)
+![snmpwalk](https://cdn.rawgit.com/davidenq/nmsjs/master/app/resources/img/snmpwalk.png))
+![commandline](https://cdn.rawgit.com/davidenq/nmsjs/master/app/resources/img/commandline.png))
 
 
