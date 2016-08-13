@@ -15,11 +15,10 @@ function createWindow() {
         frame: false,
         webPreferences: {
             nodeIntegration: true
-        },
-        darkTheme: true
+        }
     });
 
-    win.loadURL(`file://${__dirname}/app/view.html`)
+    win.loadURL(`file://${__dirname}/app/index.html`)
 
     win.webContents.closeDevTools();
 
